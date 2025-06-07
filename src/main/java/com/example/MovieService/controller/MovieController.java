@@ -15,7 +15,7 @@ import com.example.MovieService.service.IMovieService;
 
 @RestController
 @RequestMapping("/api/movies")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "*")
 public class MovieController {
     @Autowired
     private IMovieService _movieService;

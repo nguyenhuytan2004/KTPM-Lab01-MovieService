@@ -16,7 +16,7 @@ import com.example.MovieService.service.IShowtimeService;
 
 @RestController
 @RequestMapping("/api/movies/{movieId}/showtimes")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "*")
 public class ShowtimeController {
     @Autowired
     private IShowtimeService _showtimeService;
