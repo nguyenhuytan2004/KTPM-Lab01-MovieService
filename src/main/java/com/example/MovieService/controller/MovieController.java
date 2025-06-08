@@ -15,7 +15,7 @@ import com.example.MovieService.service.IMovieService;
 
 @RestController
 @RequestMapping("/api/movies")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://ktpm-lab01-frontend.onrender.com")
 public class MovieController {
     @Autowired
     private IMovieService _movieService;
