@@ -22,11 +22,11 @@ CREATE TABLE showtimes (
 
 -- Chèn dữ liệu phim
 INSERT INTO movies (`name`, `description`, `duration`, `poster`) VALUES
-('Godzilla x Kong: The New Empire', 'Cuộc chiến giữa hai quái vật huyền thoại tiếp tục với những pha hành động mãn nhãn.', 120, 'https://m.media-amazon.com/images/I/61dZ9mCP6lL._AC_UF894,1000_QL80_.jpg'),
-('Dune: Part Two', 'Paul Atreides liên minh với người Fremen để trả thù những kẻ đã hủy diệt gia đình mình.', 150, 'https://m.media-amazon.com/images/M/MV5BNTc0YmQxMjEtODI5MC00NjFiLTlkMWUtOGQ5NjFmYWUyZGJhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg'),
-('Kung Fu Panda 4', 'Po trở lại với hành trình mới, đối mặt với kẻ thù nguy hiểm nhất từ trước đến nay.', 95, 'https://upload.wikimedia.org/wikipedia/vi/7/7f/Kung_Fu_Panda_4_poster.jpg'),
-('Inside Out 2', 'Những cảm xúc trong đầu Riley tiếp tục cuộc phiêu lưu đầy màu sắc và ý nghĩa.', 100, 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLxnnmqHwRgHPU6G_5ThxLs28PJvgqGQaSzw&s'),
-('Deadpool & Wolverine', 'Deadpool và Wolverine hợp tác trong một nhiệm vụ điên rồ, hài hước và đầy máu lửa.', 110, 'https://upload.wikimedia.org/wikipedia/vi/4/4c/Deadpool_%26_Wolverine_poster.jpg');
+('Godzilla x Kong: The New Empire', 'The battle between two legendary monsters continues with spectacular action sequences.', 120, 'https://m.media-amazon.com/images/I/61dZ9mCP6lL._AC_UF894,1000_QL80_.jpg'),
+('Dune: Part Two', 'Paul Atreides allies with the Fremen to take revenge on those who destroyed his family.', 150, 'https://m.media-amazon.com/images/M/MV5BNTc0YmQxMjEtODI5MC00NjFiLTlkMWUtOGQ5NjFmYWUyZGJhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg'),
+('Kung Fu Panda 4', 'Po returns with a new journey, facing the most dangerous enemy yet.', 95, 'https://upload.wikimedia.org/wikipedia/vi/7/7f/Kung_Fu_Panda_4_poster.jpg'),
+('Inside Out 2', 'The emotions inside Riley''s mind continue their colorful and meaningful adventure.', 100, 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLxnnmqHwRgHPU6G_5ThxLs28PJvgqGQaSzw&s'),
+('Deadpool & Wolverine', 'Deadpool and Wolverine team up for a crazy, hilarious, and blood-soaked mission.', 110, 'https://upload.wikimedia.org/wikipedia/vi/4/4c/Deadpool_%26_Wolverine_poster.jpg');
 
 -- Godzilla x Kong (ID 1) – Duration: 120 mins
 INSERT INTO showtimes (movie_id, start_time, end_time) VALUES
